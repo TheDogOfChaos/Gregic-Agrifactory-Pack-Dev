@@ -8,36 +8,84 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2ee0f4bed09c075a",
+            "id": "3baf5df2c6c38138",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Gregic-Agrifactory.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "Gregic-Agrifactory"
             }
-          }
-        ]
-      },
-      {
-        "id": "d9a7f3728adce7fa",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "0a67cb0812ec1da8",
+            "id": "f26fdc2b32f6a1f3",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "kanban",
+              "state": {
+                "file": "Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-trello",
+              "title": "Kanban"
+            }
+          },
+          {
+            "id": "b150bfe8fcd805b1",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Progression & Research.canvas",
+                "viewState": {
+                  "x": 70,
+                  "y": 90,
+                  "zoom": 0
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-layout-dashboard",
+              "title": "Progression & Research"
+            }
+          },
+          {
+            "id": "9db9fcfc7a58741b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Theory, Brainstorming and overall Planning.canvas",
+                "viewState": {
+                  "x": 194.85319557730622,
+                  "y": 80.54594775782412,
+                  "zoom": 0.3333333333333332
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-layout-dashboard",
+              "title": "Theory, Brainstorming and overall Planning"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -175,11 +223,23 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "2ee0f4bed09c075a",
+  "active": "9db9fcfc7a58741b",
   "lastOpenFiles": [
+    "Theory, Brainstorming and overall Planning.canvas",
+    "Kanban.md",
+    "Progression & Research.canvas",
+    "Gregic-Agrifactory.md",
+    "Research Progression.canvas",
+    "Progression/5. Insane Voltage.md",
+    "Progression/4. Extreme Voltage.md",
+    "Progression/1. Low Voltage.md",
+    "Progression/3. High Voltage.md",
+    "Progression/2. Medium Voltage.md",
+    "Progression",
     "Welcome.md"
   ]
 }
