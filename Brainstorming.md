@@ -84,3 +84,4 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 	- ### may just need to make a coremod for a lot of this deviously ambitious shit
 	- ### Dimension-specific content (BIG MAYBE)
 		- May or may not have machine recipes be only processable in specific dimensions.
+		- If i'm gonna do this, i gotta figure out a good way of gating dimensions to research & progression
