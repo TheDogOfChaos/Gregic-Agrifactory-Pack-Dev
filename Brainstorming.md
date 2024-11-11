@@ -59,5 +59,9 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 				- Research items are directly submitted to quests
 	- ### Bio-Engineering
 		- Mystical Agriculture seeds must be Bio-engineered
-	- ### Burner Blocks (BIG BIG BIG MAYBE)
-		- Any block that burns fuel items in order to process a recipe will produce ash with every fuel item burnt
+			- Special GT or MBD2 machines needed???
+		- GMO entities (Possibly ???????)
+			- Each one has special drops needed en-mass for progression
+	- ### Burner Blocks (BIG BIG BIG BIIIIG MAYBE)
+		- Any block that burns fuel items in order to process a recipe will produce ash with every fuel item burnt.
+		- No fuel, no recipe progress.
