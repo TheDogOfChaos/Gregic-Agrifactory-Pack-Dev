@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "ffa1c9f2ba97a910",
+            "id": "80d77fbc32b2fa52",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -222,13 +222,23 @@
               "icon": "lucide-list",
               "title": "Outline of Welcome"
             }
+          },
+          {
+            "id": "466bda8ad41dd3ae",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,16 +248,18 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ffa1c9f2ba97a910",
+  "active": "80d77fbc32b2fa52",
   "lastOpenFiles": [
-    "Theory, Brainstorming and overall Planning.canvas",
+    "figure out how to implement a good machine-based source of RPM.md",
     "Brainstorming.md",
-    "Progression & Research.canvas",
-    "Kanban.md",
+    "Theory, Brainstorming and overall Planning.canvas",
     "Gregic Agrifactory.md",
+    "Kanban.md",
+    "Progression & Research.canvas",
     "Research Progression.canvas",
     "Progression/5. Insane Voltage.md",
     "Progression/4. Extreme Voltage.md",

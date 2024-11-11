@@ -15,14 +15,20 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 		- The only source of ores.
 		- Higher-tier seeds must be synthesized or spliced from constituents, after researching them.
 			- must think about whether synthetization or splicing would be good - maybe a mix of both?
+		- Debating on whether or not to keep the Infusion/Awakening Altars, or the Seed Reprocessors
+		- TODO: find uses for the Inferium -> Insanium essences
+		- Maybe add a bunch of 'harvested {source-item-here} crop' items as an intermediate between harvesting the crops and getting the essences & seed to replant the crop
+			- fuckton of loot table modifications will be needed if i wanna do that
+				- (or a coremod that just Mixins to the mod with all the wanted additions/changes)
 	- ### Create
 		- 'Remove' most functionality and all native sources of RPM/SU
 			- definitely keep the logistics side of the mod tho, because I like it, and it fits the Factorio theme.
-				- tunnels, funnels & smart chutes are locked behind basic circuits
-				- normal chutes are locked behind Automation research
-				- mechanical arms are available almost right from the get-go
+				- tunnels, funnels & smart chutes will be locked behind basic circuits ()
+				- normal chutes will be locked behind Automation research
+				- mechanical arms will be available almost right from the get-go
+			- [[Kanban#^5ggylw|figure out how to implement a good machine-based source of RPM]]
 	- ### Greate (possibly?)
-		- Causes a crash when placing belts with Flywheel's **Batching** backend enabled instead of the **Instancing** backend
+		- Causes a crash currently when placing belts with Flywheel's **Batching** backend enabled instead of the **Instancing** backend (this has been fixed on the main Git repo, will revisit when the devs release a proper update)
 		- 'Remove' all but the belts, shafts, gearboxes and small gears.
 		- Keep the spouting machine? idk
 	- ### AE2
@@ -48,7 +54,7 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 		- recursive recipes
 		- repurposing byproducts
 		- vast processing lines
-		- Simple shit like the Create Tunnels are locked behind basic circuits, which in turn are locked behind a slew of other research and processes
+		- Simple shit like the Create Tunnels will be locked behind basic circuits, which in turn will be locked behind a slew of other research and processes
 	- ### Research
 		- Possible styles of the research system: 
 			- Factorio style:
@@ -62,6 +68,19 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 			- Special GT or MBD2 machines needed???
 		- GMO entities (Possibly ???????)
 			- Each one has special drops needed en-mass for progression
-	- ### Burner Blocks (BIG BIG BIG BIIIIG MAYBE)
+		- **EXTREME** usage of GT's cleanroom for later bio-engineering recipes.
+			- Probably not gonna try and get MBD2 things to be able to detect if they're in a cleanroom
+		- [Gleba-style spoilage system](https://factorio.com/blog/post/fff-414) for most organic objects 
+			- May be a little trickier to pull off - this is probably wading deep into NBT madness
+				- Items with different NBT data are naturally unstackable with each other (even if they have the same `namespace:item_id`), gonna have to work around this.
+			- Every organic item has a 'freshness' timer that ticks down in real time from the moment that the item is created.
+				- The only way to slow down or stop the freshness timer will be to store them in a Cold Chest or freezer
+					- Cold Chests (singleblock, cannot be made into double chest) will slow the freshness timers of anything in them by 50%, but only when surrounded on 4 or more sides by ice.
+					- Freezers (multiblock) will indefinitely halt the timer of anything placed inside them, at the cost of needing constant feed of power & some sort of cryogenic liquid. (TODO: think about what said liquid could be)
+	- ### Burner Blocks (EXTREMELY BIG BIG BIG BIIIIG MAYBE)
 		- Any block that burns fuel items in order to process a recipe will produce ash with every fuel item burnt.
+			- If the ash slot is full, the block stops doing what it does until the ash is cleared.
 		- No fuel, no recipe progress.
+	- ### may just need to make a coremod for a lot of this deviously ambitious shit
+	- ### Dimension-specific content (BIG MAYBE)
+		- May or may not have machine recipes be only processable in specific dimensions.
