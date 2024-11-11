@@ -1,0 +1,63 @@
+Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it can do.
+- ## Mod-specific stuff
+	- ### Gregtech
+		- MAYBE De-tier GT machines and circuits, to an extent
+			- Pyanodons has Mark 1 to 5 for most machines.
+		- Have machines locked behind science.
+			- Also have machine recipes locked behind science, if possible.
+		- Maybe get rid of GT pipes for the most part.
+		- Rename GT's research system to something else to avoid confusion
+			- Possible names:
+				- Analytical System
+		- MAYBE massively restructure the whole mod.
+		- ULV?
+	- ### Mystical Agriculture
+		- The only source of ores.
+		- Higher-tier seeds must be synthesized or spliced from constituents, after researching them.
+			- must think about whether synthetization or splicing would be good - maybe a mix of both?
+	- ### Create
+		- 'Remove' most functionality and all native sources of RPM/SU
+			- definitely keep the logistics side of the mod tho, because I like it, and it fits the Factorio theme.
+				- tunnels, funnels & smart chutes are locked behind basic circuits
+				- normal chutes are locked behind Automation research
+				- mechanical arms are available almost right from the get-go
+	- ### Greate (possibly?)
+		- Causes a crash when placing belts with Flywheel's **Batching** backend enabled instead of the **Instancing** backend
+		- 'Remove' all but the belts, shafts, gearboxes and small gears.
+		- Keep the spouting machine? idk
+	- ### AE2
+		- Gated late into the pack, behind extreme amounts of research and components
+		- EXPENSIVE AS FUCK, but still useful.
+	- ### Hostile Neural Networks
+		- The only source of mob drops (BIG MAYBE)
+		- Locked behind advanced bio-engineering research
+	- ### Xnet
+		- Mid-game item/fluid/energy/logic transportation
+	- ### Pipez
+		- Early-game energy transportation.
+		- Probably will disable all other pipes from the mod.
+		- Pipe upgrades will be locked behind research.
+	- ### Flux Networks
+		- Late-game wireless energy transportation
+	- ### Computercraft
+		- For the smart people.
+	- ### Project Red
+		- Also for the smart people.
+- ## General
+	- ### Heavy focus on being Pyanodons & Krastorio2-like:
+		- recursive recipes
+		- repurposing byproducts
+		- vast processing lines
+		- Simple shit like the Create Tunnels are locked behind basic circuits, which in turn are locked behind a slew of other research and processes
+	- ### Research
+		- Possible styles of the research system: 
+			- Factorio style:
+				- Research items are produced in assemblers
+				- Research items are placed in special researchers that gradually tick up the progress of the selected research quest.
+			- Feed the Factory style:
+				- Research items are produced in dedicated labs
+				- Research items are directly submitted to quests
+	- ### Bio-Engineering
+		- Mystical Agriculture seeds must be Bio-engineered
+	- ### Burner Blocks (BIG BIG BIG MAYBE)
+		- Any block that burns fuel items in order to process a recipe will produce ash with every fuel item burnt

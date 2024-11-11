@@ -6,8 +6,9 @@ kanban-plugin: board
 
 ## TODO
 
-- [ ] Try and get mineshafts to not generate.
-
+- [ ] Try and get mineshafts to not generate anymore
+- [ ] Find a good mod for power transportation
+- [ ] Figure out what style of research system I want to do
 
 ## DOING
 

@@ -1,6 +1,8 @@
 {
 	"nodes":[
-		{"id":"6182d468ec1d9738","x":-40,"y":-20,"width":220,"height":220,"type":"text","text":"# Beginning"}
+		{"id":"dfd750f7b1ae430f","x":-960,"y":-760,"width":400,"height":400,"type":"group","label":"template"},
+		{"id":"6182d468ec1d9738","type":"text","text":"### automation tech card\ncost: 10 basic tech cards\n","x":560,"y":-120,"width":340,"height":160},
+		{"id":"526b1718cabbc94d","x":-920,"y":-720,"width":320,"height":320,"type":"text","text":"### Research Name\nCost:\nTime required:\nEffects:\nDescription:"}
 	],
 	"edges":[]
 }
