@@ -78,7 +78,15 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 			- May be quite tricky to pull off - this is probably wading deep into NBT madness.
 				- Items with different NBT data are naturally unstackable with each other (even if they have the same `namespace:item_id`), gonna have to work around this.
 				- Possible approach(es):
-					- Upon item creation, the item gains NBT with a Unix timestamp that can then be counted down to by a coremod.
+					- Approach 1: Upon item creation, the item gains NBT containing a Unix timestamp that can then be counted down to internally.
+						- Pros: Doesn't require the NBT itself to be updated every second.
+						- Cons: Not very malleable after the fact.
+					- Approach 2: Upon item creation, the item gains NBT containing the timer itself, which gets updated every second.
+						- Pros: Can have the timer easily updated on the fly when attempting to preserve the items.
+						- Cons: Would probably start killing TPS really quickly.
+					- Approach 3: Upon item creation, the item gains NBT with a ID (or UUID), which then gets appended to a Map (as the key) alongside a Unix timestamp (as the value) of when the item is due to spoil. This value can be updated when the item is preserved, and then removed when the item spoils or is destroyed.
+						- Pros: TBD
+						- Cons: May start to cause a memory leak if items are destroyed in ways that cannot be reasonably handled or detected - No detection, no removal from the Map.
 	- ### Burner Blocks (EXTREMELY BIG BIG BIG BIIIIG MAYBE)
 		- Any block that burns fuel items in order to process a recipe will produce ash with every fuel item burnt.
 			- If the ash slot is full, the block stops doing what it does until the ash is cleared.
