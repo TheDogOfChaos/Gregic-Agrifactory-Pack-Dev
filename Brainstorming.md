@@ -87,6 +87,9 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 					- Approach 3: Upon item creation, the item gains NBT with a ID (or UUID), which then gets appended to a Map (as the key) alongside a Unix timestamp (as the value) of when the item is due to spoil. This value can be updated when the item is preserved, and then removed when the item spoils or is destroyed.
 						- Pros: TBD
 						- Cons: May start to cause a memory leak if items are destroyed in ways that cannot be reasonably handled or detected - No detection, no removal from the Map.
+					- Approach 4: How TFC does it:![[Pasted image 20241112232320.png]]
+						- Pros:
+						- Cons: Rapidly moving items in and out of cold storage may 
 	- ### Burner Blocks (EXTREMELY BIG BIG BIG BIIIIG MAYBE)
 		- Any block that burns fuel items in order to process a recipe will produce ash with every fuel item burnt.
 			- If the ash slot is full, the block stops doing what it does until the ash is cleared.

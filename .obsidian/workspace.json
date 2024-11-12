@@ -57,7 +57,7 @@
                 "viewState": {
                   "x": 313.84915821219465,
                   "y": -560.6623217876775,
-                  "zoom": -1
+                  "zoom": -0.3333333333333334
                 }
               },
               "pinned": true,
@@ -74,9 +74,9 @@
               "state": {
                 "file": "Theory, Brainstorming and overall Planning.canvas",
                 "viewState": {
-                  "x": 251.6610603183741,
-                  "y": 285.3556506487702,
-                  "zoom": -0.3333333333333334
+                  "x": 412.4099611286835,
+                  "y": 2600.991428061006,
+                  "zoom": 0.3333333333333332
                 }
               },
               "pinned": true,
@@ -85,9 +85,8 @@
             }
           },
           {
-            "id": "d051e8b32a097f77",
+            "id": "80d77fbc32b2fa52",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -95,13 +94,12 @@
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "Brainstorming"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -255,14 +253,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b150bfe8fcd805b1",
+  "active": "80d77fbc32b2fa52",
   "lastOpenFiles": [
+    "Theory, Brainstorming and overall Planning.canvas",
+    "Progression & Research.canvas",
     "Brainstorming.md",
+    "Pasted image 20241112232320.png",
+    "figure out how to implement a good machine-based source of RPM.md",
     "Gregic Agrifactory.md",
     "Kanban.md",
-    "Progression & Research.canvas",
-    "Theory, Brainstorming and overall Planning.canvas",
-    "figure out how to implement a good machine-based source of RPM.md",
     "Research Progression.canvas",
     "Progression/5. Insane Voltage.md",
     "Progression/4. Extreme Voltage.md",
