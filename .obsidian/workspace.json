@@ -57,7 +57,7 @@
                 "viewState": {
                   "x": 313.84915821219465,
                   "y": -560.6623217876775,
-                  "zoom": -0.3333333333333334
+                  "zoom": -1
                 }
               },
               "pinned": true,
@@ -87,6 +87,7 @@
           {
             "id": "d051e8b32a097f77",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -94,12 +95,13 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Brainstorming"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -238,7 +240,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,13 +255,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "87e265e60c4b0f32",
+  "active": "b150bfe8fcd805b1",
   "lastOpenFiles": [
+    "Brainstorming.md",
     "Gregic Agrifactory.md",
     "Kanban.md",
     "Progression & Research.canvas",
     "Theory, Brainstorming and overall Planning.canvas",
-    "Brainstorming.md",
     "figure out how to implement a good machine-based source of RPM.md",
     "Research Progression.canvas",
     "Progression/5. Insane Voltage.md",

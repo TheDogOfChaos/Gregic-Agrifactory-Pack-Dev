@@ -23,7 +23,7 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 	- ### Create
 		- 'Remove' most functionality and all native sources of RPM/SU
 			- definitely keep the logistics side of the mod tho, because I like it, and it fits the Factorio theme.
-				- tunnels, funnels & smart chutes will be locked behind basic circuits ()
+				- tunnels, funnels & smart chutes will be locked behind basic circuits (and the applicable research thereof)
 				- normal chutes will be locked behind Automation research
 				- mechanical arms will be available almost right from the get-go
 			- [[Kanban#^5ggylw|figure out how to implement a good machine-based source of RPM]]
@@ -71,7 +71,7 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 		- **EXTREME** usage of GT's cleanroom for later bio-engineering recipes.
 			- Probably not gonna try and get MBD2 things to be able to detect if they're in a cleanroom
 		- [Gleba-style spoilage system](https://factorio.com/blog/post/fff-414) for most organic objects 
-			- May be a little trickier to pull off - this is probably wading deep into NBT madness
+			- May be quite tricky to pull off - this is probably wading deep into NBT madness.
 				- Items with different NBT data are naturally unstackable with each other (even if they have the same `namespace:item_id`), gonna have to work around this.
 			- Every organic item has a 'freshness' timer that ticks down in real time from the moment that the item is created.
 				- The only way to slow down or stop the freshness timer will be to store them in a Cold Chest or freezer
