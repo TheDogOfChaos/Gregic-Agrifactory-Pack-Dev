@@ -64,19 +64,21 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 				- Research items are produced in dedicated labs
 				- Research items are directly submitted to quests
 	- ### Bio-Engineering
-		- Mystical Agriculture seeds must be Bio-engineered
+		- Mystical Agriculture seeds must be Bio-Engineered
 			- Special GT or MBD2 machines needed???
 		- GMO entities (Possibly ???????)
 			- Each one has special drops needed en-mass for progression
 		- **EXTREME** usage of GT's cleanroom for later bio-engineering recipes.
 			- Probably not gonna try and get MBD2 things to be able to detect if they're in a cleanroom
 		- [Gleba-style spoilage system](https://factorio.com/blog/post/fff-414) for most organic objects 
-			- May be quite tricky to pull off - this is probably wading deep into NBT madness.
-				- Items with different NBT data are naturally unstackable with each other (even if they have the same `namespace:item_id`), gonna have to work around this.
-			- Every organic item has a 'freshness' timer that ticks down in real time from the moment that the item is created.
+			- Every food (or otherwise organic) item has a 'freshness' timer that ticks down in real time from the moment that the item is created.
 				- The only way to slow down or stop the freshness timer will be to store them in a Cold Chest or freezer
 					- Cold Chests (singleblock, cannot be made into double chest) will slow the freshness timers of anything in them by 50%, but only when surrounded on 4 or more sides by ice.
 					- Freezers (multiblock) will indefinitely halt the timer of anything placed inside them, at the cost of needing constant feed of power & some sort of cryogenic liquid. (TODO: think about what said liquid could be)
+			- May be quite tricky to pull off - this is probably wading deep into NBT madness.
+				- Items with different NBT data are naturally unstackable with each other (even if they have the same `namespace:item_id`), gonna have to work around this.
+				- Possible approach(es):
+					- Upon item creation, the item gains NBT with a Unix timestamp
 	- ### Burner Blocks (EXTREMELY BIG BIG BIG BIIIIG MAYBE)
 		- Any block that burns fuel items in order to process a recipe will produce ash with every fuel item burnt.
 			- If the ash slot is full, the block stops doing what it does until the ash is cleared.
