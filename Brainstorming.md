@@ -78,7 +78,7 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 			- May be quite tricky to pull off - this is probably wading deep into NBT madness.
 				- Items with different NBT data are naturally unstackable with each other (even if they have the same `namespace:item_id`), gonna have to work around this.
 				- Possible approach(es):
-					- Upon item creation, the item gains NBT with a Unix timestamp
+					- Upon item creation, the item gains NBT with a Unix timestamp that can then be counted down to by a coremod.
 	- ### Burner Blocks (EXTREMELY BIG BIG BIG BIIIIG MAYBE)
 		- Any block that burns fuel items in order to process a recipe will produce ash with every fuel item burnt.
 			- If the ash slot is full, the block stops doing what it does until the ash is cleared.
