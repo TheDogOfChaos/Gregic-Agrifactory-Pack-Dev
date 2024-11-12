@@ -99,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -253,11 +253,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "80d77fbc32b2fa52",
+  "active": "f26fdc2b32f6a1f3",
   "lastOpenFiles": [
+    "Brainstorming.md",
     "Theory, Brainstorming and overall Planning.canvas",
     "Progression & Research.canvas",
-    "Brainstorming.md",
     "Pasted image 20241112232320.png",
     "figure out how to implement a good machine-based source of RPM.md",
     "Gregic Agrifactory.md",
