@@ -99,22 +99,9 @@
               "icon": "lucide-file",
               "title": "Brainstorming"
             }
-          },
-          {
-            "id": "2aa9fff6fe04ee4a",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (workspace.json)"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -267,7 +254,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2aa9fff6fe04ee4a",
+  "active": "466bda8ad41dd3ae",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Brainstorming.md",
