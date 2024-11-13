@@ -47,6 +47,18 @@
             }
           },
           {
+            "id": "d34f5a4e421454cf",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
+            }
+          },
+          {
             "id": "b150bfe8fcd805b1",
             "type": "leaf",
             "pinned": true,
@@ -99,7 +111,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -253,7 +265,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f26fdc2b32f6a1f3",
+  "active": "d34f5a4e421454cf",
   "lastOpenFiles": [
     "Gregic Agrifactory.md",
     "Kanban.md",
