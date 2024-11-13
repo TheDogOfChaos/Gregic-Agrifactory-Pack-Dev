@@ -99,9 +99,22 @@
               "icon": "lucide-file",
               "title": "Brainstorming"
             }
+          },
+          {
+            "id": "2aa9fff6fe04ee4a",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/workspace.json",
+                "staged": false
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (workspace.json)"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -254,11 +267,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d051e8b32a097f77",
+  "active": "2aa9fff6fe04ee4a",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Brainstorming.md",
+    "Pasted image 20241112232320.png",
     "Theory, Brainstorming and overall Planning.canvas",
     "Progression & Research.canvas",
-    "Brainstorming.md",
     "Gregic Agrifactory.md",
     "Kanban.md",
     "figure out how to implement a good machine-based source of RPM.md",

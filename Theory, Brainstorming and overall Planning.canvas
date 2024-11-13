@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"a86a1be45762133e","type":"file","file":"Brainstorming.md","x":-320,"y":-240,"width":1080,"height":2260},
+		{"id":"a86a1be45762133e","type":"file","file":"Brainstorming.md","x":-320,"y":-240,"width":1080,"height":4060},
 		{"id":"cad54b6331095d8d","type":"file","file":"Kanban.md","x":800,"y":-240,"width":1080,"height":1100}
 	],
 	"edges":[]
