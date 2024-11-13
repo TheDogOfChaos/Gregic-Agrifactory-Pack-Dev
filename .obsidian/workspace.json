@@ -101,7 +101,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -240,8 +240,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -255,13 +254,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b150bfe8fcd805b1",
+  "active": "d051e8b32a097f77",
   "lastOpenFiles": [
+    "Theory, Brainstorming and overall Planning.canvas",
+    "Progression & Research.canvas",
     "Brainstorming.md",
     "Gregic Agrifactory.md",
     "Kanban.md",
-    "Progression & Research.canvas",
-    "Theory, Brainstorming and overall Planning.canvas",
     "figure out how to implement a good machine-based source of RPM.md",
     "Research Progression.canvas",
     "Progression/5. Insane Voltage.md",
