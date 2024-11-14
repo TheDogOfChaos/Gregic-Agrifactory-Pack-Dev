@@ -2,5 +2,6 @@
   "obsidian-kanban",
   "obsidian-git",
   "obsidian-outliner",
-  "obsidian-list-callouts"
+  "obsidian-list-callouts",
+  "obsidian-linter"
 ]

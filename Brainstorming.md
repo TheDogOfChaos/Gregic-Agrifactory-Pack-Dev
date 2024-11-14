@@ -67,13 +67,13 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 		- vast processing lines
 		- Simple shit like the Create Tunnels will be locked behind basic circuits, which in turn will be locked behind a slew of other research and processes
 	- ### Research
-		- Possible styles of the research system: 
+		- Possible styles of the research system:  ^7461f9
 			- Factorio style:
-				- Research items are produced in assemblers
+				- Research items are produced in assemblers.
 				- Research items are placed in special researchers that gradually tick up the progress of the selected research quest.
 			- Feed the Factory style:
-				- Research items are produced in dedicated labs
-				- Research items are directly submitted to quests
+				- Research items are produced in dedicated labs.
+				- Research items are directly submitted to quests.
 	- ### Bio-Engineering
 		- Mystical Agriculture seeds must be Bio-Engineered
 			- Special GT or MBD2 machines needed???
