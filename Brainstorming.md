@@ -53,10 +53,10 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 		- For the smart people.
 	- ### Project Red
 		- Also for the smart people.
-	- ### Coremod (name tbd)
+	- ### Gregic Agrifactory Core
 		- Features:
 			- Ore Seeds & Ore Crops
-			- Mixins for
+			- Mixins for Vanilla to give furnaces ash slots.
 			- Spoilage system
 - ## General
 	- ### Heavy focus on being Pyanodons & Krastorio2-like:
