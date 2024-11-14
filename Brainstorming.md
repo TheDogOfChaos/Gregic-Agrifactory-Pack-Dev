@@ -55,9 +55,11 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 		- Also for the smart people.
 	- ### Gregic Agrifactory Core
 		- Features:
-			- Ore Seeds & Ore Crops
+			- Ore Seeds & Ore Crops (directly inspired by Mystical Agriculture)
 			- Mixins for Vanilla to give furnaces ash slots.
-			- Spoilage system
+			- Biological item spoilage system
+			- GMO entities
+			- KubeJS support for my own ease of use? Maybe?
 - ## General
 	- ### Heavy focus on being Pyanodons & Krastorio2-like:
 		- recursive recipes
@@ -76,7 +78,9 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 		- Mystical Agriculture seeds must be Bio-Engineered
 			- Special GT or MBD2 machines needed???
 		- GMO entities (Possibly ???????)
-			- Each one has special drops needed en-mass for progression
+			- Each one has special drops needed en-mass for progression.
+			- Some of them can become **HOSTILE AND DANGEROUS**.
+				- Some of them might even become a threat to the world if left alive and alone for long enough.
 		- **EXTREME** usage of GT's cleanroom for later bio-engineering recipes.
 			- Probably not gonna try and get MBD2 things to be able to detect if they're in a cleanroom
 		- [Gleba-style spoilage system](https://factorio.com/blog/post/fff-414) for most organic objects 
