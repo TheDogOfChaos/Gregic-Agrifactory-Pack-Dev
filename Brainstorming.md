@@ -56,7 +56,8 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 	- ### Coremod (name tbd)
 		- Features:
 			- Ore Seeds & Ore Crops
-			- Mixins 
+			- Mixins for
+			- Spoilage system
 - ## General
 	- ### Heavy focus on being Pyanodons & Krastorio2-like:
 		- recursive recipes
