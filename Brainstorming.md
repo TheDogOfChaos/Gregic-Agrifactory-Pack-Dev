@@ -15,7 +15,7 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 		- ULV?
 			- 
 	- ### Mystical Agriculture
-		- #### MA is not playing nicely with kubejs - probably gonna need to just extradite the ore seeds to a coremod instead
+		- #### MA is not playing nicely with KubeJS - probably gonna need to just extradite the concept of Ore Seeds to a coremod instead
 		- The only source of ores.
 		- Higher-tier seeds must be synthesized or spliced from constituents, after researching them.
 			- must think about whether synthetization or splicing would be good - maybe a mix of both?
@@ -36,11 +36,11 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 		- 'Remove' all but the belts, shafts, gearboxes and small gears.
 		- Keep the spouting machine? idk
 	- ### AE2
-		- Gated late into the pack, behind extreme amounts of research and components
-		- EXPENSIVE AS FUCK, but still useful.
+		- Gated late into the pack, behind extreme amounts of research and intermediate components.
+		- EXPENSIVE AS FUCK, but still extremely useful.
 	- ### Hostile Neural Networks
 		- The only source of mob drops (BIG MAYBE)
-		- Locked behind advanced bio-engineering research
+		- Locked behind advanced bio-engineering research.
 	- ### Xnet
 		- Mid-game item/fluid/energy/logic transportation
 	- ### Pipez
