@@ -53,13 +53,7 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 		- For the smart people.
 	- ### Project Red
 		- Also for the smart people.
-	- ### Gregic Agrifactory Core
-		- Features:
-			- Ore Seeds & Ore Crops (directly inspired by Mystical Agriculture)
-			- Mixins for Vanilla to give furnaces ash slots.
-			- Biological item spoilage system
-			- GMO entities
-			- KubeJS support for my own ease of use? Maybe?
+	- ### [[Coremod Brainstorming|Gregic Agrifactory Core]]
 - ## General
 	- ### Heavy focus on being Pyanodons & Krastorio2-like:
 		- recursive recipes
