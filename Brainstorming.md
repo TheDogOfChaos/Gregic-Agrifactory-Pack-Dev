@@ -53,8 +53,10 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 		- For the smart people.
 	- ### Project Red
 		- Also for the smart people.
-	- ### Coremod
-		- TBD
+	- ### Coremod (name tbd)
+		- Features:
+			- Ore Seeds & Ore Crops
+			- Mixins 
 - ## General
 	- ### Heavy focus on being Pyanodons & Krastorio2-like:
 		- recursive recipes
@@ -99,7 +101,7 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 		- May or may not go really 'OH GOD WTF IS THAT' with some of the GMOs
 			- Will have to research the rules of Modrinth & Minecraft's EULA to see how far I can go.
 	- ### Burner Blocks (EXTREMELY BIG BIG BIG BIIIIG MAYBE)
-		- Any block that burns fuel items in order to process a recipe will produce ash with every fuel item burnt.
+		- Any block that burns fuel items in order to process a recipe will produce ash with every fuel item burnt. (including normal furnaces)
 			- If the ash slot is full, the block stops doing what it does until the ash is cleared.
 		- No fuel, no recipe progress.
 	- ### may just need to make a coremod for a lot of this deviously ambitious shit
