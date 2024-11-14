@@ -41,13 +41,13 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 	- ### Hostile Neural Networks
 		- The only source of mob drops (BIG MAYBE)
 		- Locked behind advanced bio-engineering research.
-	- ### Xnet
+	- ### Xnet ^eb43de
 		- Mid-game item/fluid/energy/logic transportation
-	- ### Pipez
+	- ### Pipez ^ea6f54
 		- Early-game energy transportation.
 		- Probably will disable all other pipes from the mod.
 		- Pipe upgrades will be locked behind research.
-	- ### Flux Networks
+	- ### Flux Networks ^00de2b
 		- Late-game wireless energy transportation
 	- ### Computercraft
 		- For the smart people.
