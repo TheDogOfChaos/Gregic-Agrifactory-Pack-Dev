@@ -15,6 +15,7 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 		- ULV?
 			- 
 	- ### Mystical Agriculture
+		- #### MA is not playing nicely with kubejs - probably gonna need to just extradite the ore seeds to a coremod instead
 		- The only source of ores.
 		- Higher-tier seeds must be synthesized or spliced from constituents, after researching them.
 			- must think about whether synthetization or splicing would be good - maybe a mix of both?
@@ -52,6 +53,8 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 		- For the smart people.
 	- ### Project Red
 		- Also for the smart people.
+	- ### Coremod
+		- TBD
 - ## General
 	- ### Heavy focus on being Pyanodons & Krastorio2-like:
 		- recursive recipes
@@ -74,7 +77,7 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 		- **EXTREME** usage of GT's cleanroom for later bio-engineering recipes.
 			- Probably not gonna try and get MBD2 things to be able to detect if they're in a cleanroom
 		- [Gleba-style spoilage system](https://factorio.com/blog/post/fff-414) for most organic objects 
-			- Every food (or otherwise organic) item has a 'freshness' timer that ticks down in real time from the moment that the item is created.
+			- Every food (or otherwise organic) item will have a 'freshness' timer that ticks down in real time from the moment that the item is created.
 				- The only way to slow down or stop the freshness timer will be to store them in a Cold Chest or freezer
 					- Cold Chests (singleblock, cannot be made into double chest) will slow the freshness timers of anything in them by 50%, but only when surrounded on 4 or more sides by ice.
 					- Freezers (multiblock) will indefinitely halt the timer of anything placed inside them, at the cost of needing constant feed of power & some sort of cryogenic liquid. (TODO: think about what said liquid could be)
@@ -90,9 +93,11 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 					- Approach 3: Upon item creation, the item gains NBT with a ID (or UUID), which then gets appended to a Map (as the key) alongside a Unix timestamp (as the value) of when the item is due to spoil. This value can be updated when the item is preserved, and then removed when the item spoils or is destroyed.
 						- Pros: TBD
 						- Cons: May start to cause a memory leak if items are destroyed in ways that cannot be reasonably handled or detected - No detection, no removal from the Map.
-					- Approach 4: How TFC does it:![[Pasted image 20241112232320.png]]
+					- Approach 4: How TFC does it:![[tfcDiscordScreenshot-FoodPreservationSpoilageTimer.png]]
 						- Pros:
-						- Cons: Rapidly moving items in and out of cold storage may 
+						- Cons: Rapidly moving items in and out of cold storage may be a bit fucky.
+		- May or may not go really 'OH GOD WTF IS THAT' with some of the GMOs
+			- Will have to research the rules of Modrinth & Minecraft's EULA to see how far I can go.
 	- ### Burner Blocks (EXTREMELY BIG BIG BIG BIIIIG MAYBE)
 		- Any block that burns fuel items in order to process a recipe will produce ash with every fuel item burnt.
 			- If the ash slot is full, the block stops doing what it does until the ash is cleared.
