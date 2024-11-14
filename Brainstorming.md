@@ -2,23 +2,26 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 - ## Mod-specific stuff
 	- ### Gregtech
 		- MAYBE De-tier GT machines and circuits, to an extent
-			- Pyanodons has Mark 1 to 5 for most machines.
+			- Pyanodons has Mark 1 to 5 for most machines, could take a lil inspiration from that.
 		- Have machines locked behind science.
-			- Also have machine recipes locked behind science, if possible.
+			- Also have recipes within machines locked behind science, if possible.
 		- Maybe get rid of GT pipes for the most part.
 		- Rename GT's research system to something else to avoid confusion
 			- Possible names:
 				- Analytical System
-		- MAYBE massively restructure the whole mod.
+				- Indagation Implementation
+				- Innovation Complex
+		- MAYBE restructure the whole mod, if needs be.
 		- ULV?
+			- 
 	- ### Mystical Agriculture
 		- The only source of ores.
 		- Higher-tier seeds must be synthesized or spliced from constituents, after researching them.
 			- must think about whether synthetization or splicing would be good - maybe a mix of both?
-		- Debating on whether or not to keep the Infusion/Awakening Altars, or the Seed Reprocessors
-		- TODO: find uses for the Inferium -> Insanium essences
+		- Mystical Agriculture's machines & crafting structures have been 'removed'
+		- Find uses for the Inferium -> Insanium essences
 		- Maybe add a bunch of 'harvested {source-item-here} crop' items as an intermediate between harvesting the crops and getting the essences & seed to replant the crop
-			- fuckton of loot table modifications will be needed if i wanna do that
+			- fuckton of loot table modifications will be needed if i wanna do that with KubeJS
 				- (or a coremod that just Mixins to the mod with all the wanted additions/changes)
 	- ### Create
 		- 'Remove' most functionality and all native sources of RPM/SU

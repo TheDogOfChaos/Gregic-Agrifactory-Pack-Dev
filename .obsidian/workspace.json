@@ -240,7 +240,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -254,7 +255,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "466bda8ad41dd3ae",
+  "active": "d051e8b32a097f77",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Brainstorming.md",
