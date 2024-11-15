@@ -53,7 +53,7 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 		- For the smart people.
 	- ### Project Red
 		- Also for the smart people.
-	- ### [[Coremod Brainstorming|Gregic Agrifactory Core]]
+	- ### [[Brainstorming & Planning (coremod)|Gregic Agrifactory Core]]
 - ## General
 	- ### Heavy focus on being Pyanodons & Krastorio2-like:
 		- recursive recipes
