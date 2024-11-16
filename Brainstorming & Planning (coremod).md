@@ -10,3 +10,5 @@
 	- Ore Crops & their seeds (directly inspired by Mystical Agriculture) \[CURRENT PRIORITY] ^031fb8
 		- Possible direct integration with GT (datagen is being very fucky)
 			- Might just make stuff able to be done with KubeJS.
+		- Forge has native support for recoloring textures. This is huge to me.
+		- 
