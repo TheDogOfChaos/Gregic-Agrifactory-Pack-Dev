@@ -14,8 +14,8 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 		- MAYBE restructure the whole mod, if needs be.
 		- ULV?
 			- 
-	- ### Mystical Agriculture
-		- #### MA is not playing nicely with KubeJS - probably gonna need to just extradite the concept of Ore Seeds to a coremod instead
+	- ### Mystical Agriculture \[deprecated]
+		- #### MA is not playing nicely with KubeJS - Coremod is being made. 
 		- The only source of ores.
 		- Higher-tier seeds must be synthesized or spliced from constituents, after researching them.
 			- must think about whether synthetization or splicing would be good - maybe a mix of both?
