@@ -9,6 +9,7 @@ kanban-plugin: board
 - [ ] #mainPack find a good way to have gt or mbd2 machines as motors for create belts ^5ggylw
 - [ ] #mainPack Figure out a Starter Kit to get players started with the modpack.
 - [ ] #coreMod Implement a way of dynamically generating crops.
+	- [ ] Builder Method?
 	- [ ] Dynamically generate crop textures based on a given color.
 	- [ ] Get loot tables to dynamically generate.
 
