@@ -11,8 +11,8 @@
 		- Forge has native support for recoloring textures. This is huge to me.
 		- Will need a builder class.
 		- Allow the ability to choose if a crop uses the `minecraft:block/crop` model or the `minecraft:block/cross` model
-	- Biological item spoilage system.
-		- Cold Chest
+	- [[Brainstorming & Planning (main pack)#^d642f0|Biological item spoilage system]]
+		- Cold Chest 
 		- Freezer
 	- Mixins for Vanilla to give furnaces ash slots.
 	- GMO entities?
