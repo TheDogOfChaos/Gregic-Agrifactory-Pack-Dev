@@ -16,4 +16,5 @@
 		- Freezer
 	- Mixins for Vanilla to give furnaces ash slots.
 	- GMO entities?
+	- [[Brainstorming & Planning (main pack)#^2ecbec|Multiblock Kits]]
 	- No recipes. This coremod is for a pack with KubeJS. 

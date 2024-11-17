@@ -107,3 +107,13 @@ Glossary: 'Remove' = remove all recipes for the thing, and all recipes that it c
 	- ### Dimension-specific content (BIG MAYBE)
 		- May or may not have machine recipes be only processable in specific dimensions.
 		- If i'm gonna do this, i gotta figure out a good way of gating dimensions to research & progression
+	- ### Multiblock Kits ^2ecbec
+		- Multiblocks come in manufacturable kits, to ease the tediousness of building.
+		- A block that allows one to trade a given kit for the blocks needed for a multiblock.
+			- In the case of multiblocks that have a minimum and/or maximum amounts of certain Predicates (hatches, buses, energy inputs/outputs, etc), allow the player to choose the amount of those Predicates that they want to obtain.
+				- The total block count MUST stay the same before the BlockItems are able to be outputted.
+		- Shift+Rightclicking a Multiblock controller with the Terminal item already has the functionality of rendering ghost blocks where parts of the multiblock should be built.
+			- Build upon this concept?
+	- ### Tutorial
+		- Will have to make some way of introducing players to basic concepts within the pack.
+			- Maybe Ponder scenes?
