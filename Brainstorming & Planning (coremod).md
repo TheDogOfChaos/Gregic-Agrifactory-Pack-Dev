@@ -7,11 +7,8 @@
 	- Mixins for Vanilla to give furnaces ash slots.
 	- GMO entities?
 	- KubeJS support for my own ease of use. Probably.
-	- Ore Crops, their harvested varients, their essences, and their seeds. \[CURRENT PRIORITY] ^031fb8
-		- Reuse code from Mystical Agriculture probably (I want the crops, I don't want anything else.)
-		- Possible direct integration with GT (datagen is being very fucky)
-			- Might just make stuff able to be done with KubeJS, and use that as the middleman.
+	- Different kinds of ore plants., their harvested varients, their raw essences, and their seeds. \[CURRENT PRIORITY] ^031fb8
+		- KubeJS integration for dynamic plant-making.
 		- Forge has native support for recoloring textures. This is huge to me.
-		- Make a Builder class?
+		- Will need a builder class.
 		- Allow the ability to choose if a crop uses the `minecraft:block/crop` model or the `minecraft:block/cross` model
-		- N
