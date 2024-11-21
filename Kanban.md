@@ -14,7 +14,6 @@ kanban-plugin: board
 	- [ ] Builder Method?
 	- [ ] Dynamically generate crop textures based on a given color.
 	- [ ] Get loot tables to dynamically generate.
-- [ ] MzMwMQ==
 
 
 ## DOING
@@ -33,6 +32,7 @@ kanban-plugin: board
 
 ## Not In Scope
 
+- [ ] MzMwMQ==
 
 
 
