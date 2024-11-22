@@ -18,6 +18,7 @@ kanban-plugin: board
 
 ## DOING
 
+- [ ] #coreMod Implement [[Brainstorming & Planning (coremod)#^94409c]]
 
 
 ## DONE

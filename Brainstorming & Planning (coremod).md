@@ -31,7 +31,7 @@
 			- Cold Chest 
 			- Freezer
 		- GMO entities?
-	- Custom furnace that has an ash slot
+	- Custom furnace that has an ash slot ^94409c
 		- +1 ash for every fuel item that gets burnt
 		- The furnace stops working if the ash slot is full
 	- [[Brainstorming & Planning (main pack)#^2ecbec|Multiblock Kits]]
